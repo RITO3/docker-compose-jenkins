@@ -1,0 +1,9 @@
+version: "3.7"
+services:
+  jenkins:
+    image: private/jenkins:2.238-slim
+    restart: always
+    ports:
+      - 8080:8080
+    volumes: 
+      - ./volumes/jenkins_home:/var/jenkins_home
