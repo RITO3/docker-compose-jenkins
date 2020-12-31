@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:2.238-slim
+FROM jenkins/jenkins:2.273-slim
 
 ARG user=jenkins
 
