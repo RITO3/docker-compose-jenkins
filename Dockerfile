@@ -12,7 +12,7 @@ USER root
 # install prerequirement tools, and upgrade
 RUN apt-get update -y \
   && apt-get upgrade -y \
-  && apt-get install -y --no-install-recommends gnupg apt-utils apt-transport-https \
+  && apt-get install -y --no-install-recommends gnupg apt-utils apt-transport-https fonts-vlgothic\
   && rm -rf /var/lib/apt/lists/*
 
 # install docker client
